@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2220" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Volcano Cash WLA" version="1.0.13" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="10,20,25,50,100,200,300,500,600,800,1000,1500,2000,3000,5000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,pl_PL,nb_NO,tr_TR,en_NZ,nl_NL"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- ZER 10c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <!--<paymodel modelid="300-2220-099"  revealId="2220" revealVersionId="2220"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-099" clienttype="HTML" configcode="PHLP"/>-->    
+
+            <!-- GA 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2220-001"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-001"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-001" clienttype="HTML" configcode="PHLP"/> 
+
+            <!-- RI 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2220-002"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-002"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- KY 10c, 20c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2220-003"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-003"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-003" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- PLT 1zl, 2zl, 3zl, 5zl, 10zl, 20zl, 30zl & 50zl -->
+            <paymodel modelid="300-2220-004"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-004"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-004" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- NT kr5, kr10 & kr15 -->
+            <paymodel modelid="300-2220-005"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-005"
+                      hibethold="20.00" lobethold="20.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-005" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- 70% TUR ₺3, ₺6, ₺8, ₺10, ₺20, ₺30 & ₺50 -->
+            <paymodel modelid="300-2220-006"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-006"
+                      hibethold="30.00" lobethold="30.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-006" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-006" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- 65% TUR ₺3, ₺6, ₺8, ₺10, ₺20, ₺30 & ₺50 -->
+            <paymodel modelid="300-2220-007"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-007"
+                      hibethold="35.00" lobethold="35.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-007" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-007" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- LNZ $5 -->
+            <paymodel modelid="300-2220-008"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-008"
+                      hibethold="31.50" lobethold="31.50"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-008" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-008" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- NLO €0.10, €0.25, €0.50, €1, €2, €3, €5, €10 & €20 -->
+            <paymodel modelid="300-2220-009"  revealId="4614" revealVersionId="4608"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Volcano Cash WLA : 300-2220-009"
+                      hibethold="15.00" lobethold="15.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2220-009" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2220-009" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="FUN" amount="0.01"/>  
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="TRY" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
